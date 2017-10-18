@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.FindStoreModule.Core", "VirtoCommerce.FindStoreModule.Core\VirtoCommerce.FindStoreModule.Core.csproj", "{940E3F6E-626A-4909-A900-FACD7B12BA27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.FindStoreModule.Data", "VirtoCommerce.FindStoreModule.Data\VirtoCommerce.FindStoreModule.Data.csproj", "{6D4CD225-E6CD-4690-AD10-424709D10F47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.FindStoreModule.Web", "VirtoCommerce.FindStoreModule.Web\VirtoCommerce.FindStoreModule.Web.csproj", "{114FBEF6-15BA-487C-B79E-3BE5C0E16DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.FindStoreModule.Test", "VirtoCommerce.FindStoreModule.Test\VirtoCommerce.FindStoreModule.Test.csproj", "{84D592F4-9129-472E-8412-BFDFD70B4D0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{940E3F6E-626A-4909-A900-FACD7B12BA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940E3F6E-626A-4909-A900-FACD7B12BA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940E3F6E-626A-4909-A900-FACD7B12BA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940E3F6E-626A-4909-A900-FACD7B12BA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4CD225-E6CD-4690-AD10-424709D10F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4CD225-E6CD-4690-AD10-424709D10F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4CD225-E6CD-4690-AD10-424709D10F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4CD225-E6CD-4690-AD10-424709D10F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114FBEF6-15BA-487C-B79E-3BE5C0E16DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114FBEF6-15BA-487C-B79E-3BE5C0E16DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114FBEF6-15BA-487C-B79E-3BE5C0E16DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114FBEF6-15BA-487C-B79E-3BE5C0E16DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D592F4-9129-472E-8412-BFDFD70B4D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D592F4-9129-472E-8412-BFDFD70B4D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D592F4-9129-472E-8412-BFDFD70B4D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D592F4-9129-472E-8412-BFDFD70B4D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2E0D754-E3F5-41CC-9C4A-D2082E536167}
+	EndGlobalSection
+EndGlobal

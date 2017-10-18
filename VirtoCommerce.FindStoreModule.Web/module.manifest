@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+    <id>VirtoCommerce.FindStore</id>
+    <version>1.0.0</version>
+    <platformVersion>2.13.16</platformVersion>
+    <dependencies>
+        <dependency id="VirtoCommerce.Core" version="2.24.14" />
+    </dependencies>
+
+    <title>Find Store module (preview)</title>
+    <description>Search on your physical stores and filter products by availability in them.</description>
+    <authors>
+        <author>Aleksandr Vishnyakov</author>
+    </authors>
+    <owners>
+        <owner>Virto Commerce</owner>
+    </owners>
+    <projectUrl>https://github.com/VirtoCommerce/vc-module-find-store</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/VirtoCommerce/vc-module-find-store/dev/VirtoCommerce.FindStoreModule.Web/Content/logo.png</iconUrl>
+    <releaseNotes>First version.</releaseNotes>
+    <copyright>Copyright © 2017 Virto Commerce. All rights reserved</copyright>
+    <tags>fulfillment store location</tags>
+
+    <assemblyFile>VirtoCommerce.FindStoreModule.Web.dll</assemblyFile>
+    <moduleType>VirtoCommerce.FindStoreModule.Web.Module, VirtoCommerce.FindStoreModule.Web</moduleType>
+
+    <styles>
+        <!--<directory virtualPath="$/Content/css" searchPattern="*.css" searchSubdirectories="true" />-->
+    </styles>
+    <scripts>
+        <!--<directory virtualPath="$/Scripts" searchPattern="*.js" searchSubdirectories="true" />-->
+    </scripts>
+
+    <settings>
+    </settings>
+
+    <permissions>
+    </permissions>
+</module>
