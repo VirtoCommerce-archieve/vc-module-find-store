@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Linq;
+using System.Linq
 using VirtoCommerce.CoreModule.Data.Converters;
 using VirtoCommerce.CoreModule.Data.Repositories;
 using VirtoCommerce.Domain.Commerce.Model.Search;
-using VirtoCommerce.FindStore.Data.Extensions;
 using VirtoCommerce.FindStoreModule.Core.Model.Search;
 using VirtoCommerce.FindStoreModule.Core.Services;
+using VirtoCommerce.FindStoreModule.Data.Extensions;
 using VirtoCommerce.Platform.Core.Common;
 using domainModel = VirtoCommerce.Domain.Commerce.Model;
 using dataModel = VirtoCommerce.CoreModule.Data.Model;
 
-namespace VirtoCommerce.FindStore.Data.Services
+namespace VirtoCommerce.FindStoreModule.Data.Services
 {
     public class FulfillmentCenterServiceImpl : IFulfillmentCenterService, IFulfillmentCenterSearchService
     {

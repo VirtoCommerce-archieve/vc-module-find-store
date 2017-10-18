@@ -1,6 +1,6 @@
 ﻿using Microsoft.Practices.Unity;
-using VirtoCommerce.FindStore.Data.Services;
 using VirtoCommerce.FindStoreModule.Core.Services;
+using VirtoCommerce.FindStoreModule.Data.Services;
 using VirtoCommerce.Platform.Core.Modularity;
 
 namespace VirtoCommerce.FindStoreModule.Web

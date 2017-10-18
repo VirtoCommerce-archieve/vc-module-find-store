@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
 using VirtoCommerce.Platform.Core.Common;
 
-namespace VirtoCommerce.FindStore.Data.Extensions
+namespace VirtoCommerce.FindStoreModule.Data.Extensions
 {
     public static class RepositoryExtensions
     {
