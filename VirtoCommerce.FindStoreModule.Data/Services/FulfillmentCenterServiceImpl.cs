@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Linq
+using System.Linq;
 using VirtoCommerce.CoreModule.Data.Converters;
 using VirtoCommerce.CoreModule.Data.Repositories;
 using VirtoCommerce.Domain.Commerce.Model.Search;
