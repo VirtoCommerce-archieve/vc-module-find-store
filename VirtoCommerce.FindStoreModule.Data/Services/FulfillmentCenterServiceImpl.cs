@@ -28,7 +28,7 @@ namespace VirtoCommerce.FindStoreModule.Data.Services
             {
                 using (var repository = _repositoryFactory())
                 {
-                    result = repository.FulfillmentCenters.Where(x => ids.Contains(x.Id)).Select(x => x.ToCoreModel()).ToArray();
+                    result = repository.FulfillmentCenters.Where(x => ids.Contains(x.Id)).ToArray().Select(x => x.ToCoreModel()).ToArray();
                 }
             }
             return result;
